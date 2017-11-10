@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+/*----------------------------------------------------------------------------
+RESET
+----------------------------------------------------------------------------*/
+*{
+  margin : 0;
+}
+a {
+  text-decoration: none;
+}
+*,*::after,*::before{
+  clear: left;
+  box-sizing: border-box;
+}
+
+/* ----------------------------------------------------------------------------
+COMMONS
+------------------------------------------------------------------------ */
+.block-header .inner ,
+.block-main .inner{
+  width: 1200px;
+  margin:0 auto;
+  }
+  .clearfix{
+    clear: both;
+  }
+  .group:after{
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+}
+
+/* -------
+
+
+/*---------------------------------------------------------------------------
+BODY
+---------------------------------------------------------------------------*/
+
+body{
+  height: 600px;
+  }
+
+
+/*----------------------------------------------------------------------------
+HEADER
+----------------------------------------------------------------------------*/
+.block-header{
+    background: #0084B4;
+}
+.block-header .title {
+  padding: 20px;
+  padding-top: 50px;
+  margin: 0;
+  font-style: bold;
+  display: inline;
+
+}
+
+
+/*----------------------------------------------------------------------------
+MAIN
+----------------------------------------------------------------------------*/
+.block-main{
+
+background: #f4f4f2;
+}
+
+
+
+.mesboutons . {
+
+
+    padding: 300px;
+
+
+  }
+.block-main .niv1{
+
+
+    display: inline;
+    float: left;
+    margin: 150px;
+}
+
+.block-main .inner button{
+
+
+    margin: 15px  15px;
+    padding: 2% 5%;
+    background: #0084B4 ;
+    color:white;
+    font: 15px "Comfortaa", arial, sans-serif;
+    font-style: bold;
+    width: 250px ;
+    height: 60px;
+    border :none;
+    -webkit-transition: all .5s cubic-bezier( .6, 2, .4, 1);
+        -moz-transition: all .5s cubic-bezier( .6, 2, .4, 1);
+         -ms-transition: all .5s cubic-bezier( .6, 2, .4, 1);
+          -o-transition: all .5s cubic-bezier( .6, 2, .4, 1);
+             transition: all .5s cubic-bezier( .6, 2, .4, 1);
+  }
+.block-main .inner button:hover{
+  -webkit-transform: scale(1.0);
+    -moz-transform: scale(1.0);
+     -ms-transform: scale(1.0);
+      -o-transform: scale(1.0);
+         transform: scale(1.2);
+
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Inscription donneur d'ordre</title>
+    <link rel="shortcut icon" type="image/logo.png" href="logo.png" />
+    <link rel="stylesheet" href="css/inscriptionDo.css">
+  </head>
+  <body>
+    <header class="block-header" role="banner">
+      <div class="inner">
+        <h1 class="title">
+
+          <a href="index.html"><!--le slash signifie retour à la racine-->
+				<img src="image/logo.png"
+				alt="We Way">
+			</a>
+       <span>
+
+        <div class="login">
+          <a href="login.html">
+            <button type="button" name="login" id="login">login</button>
+          </a>
+
+          </div>
+
+        </span>
+      </h1>
+
+  </div>
+
+</header>
+
+<!-- ==============bouton inscription=============== -->
+
+      <!-- <main class="block-main" role="button">
+
+      <div class="inner">
+          <div class="mesboutons">
+
+            <button type="button" name="transporteur" id="inscription">Transporteur</button>
+            <button type="button" name="Donneur d'ordre" id="inscription">Donneur d'odre</button>
+
+          </div>
+
+         </div>
+
+      </main> -->
+
+<form class= "block-form" method="post">
+  <p><legend class = "block-legend"> Inscription </legend>
+
+    <p><label class="block-label" > Nom de compte </label>
+    <br><input type = "text" id= "NomDeCompte" onblur="verifNomDeCompte (this) "/> </br></p>
+
+    <p><label class="block-label">Adresse Email</label>
+    <br><input type = "email"> </input></br></p>
+
+    <p><label class="block-label"> Mot de passe</label>
+    <br><input type = "password"> </input></br></p>
+
+    <p><label class="block-label"> Confirmation Mot de passe</label>
+    <br><input type = "password"> </input></br></p>
+  </p>
+
+<p><legend class ="block-legend"> Coordonnées </legend>
+
+    <p><label class="block-label"> Raison Sociale</label>
+    <br><input type = "text"> </input></br></p>
+
+    <p><label class="block-label"> Adresse postale </label>
+    <br><input type = "text"> </input></br></p>
+
+    <p><label class="block-label"> Code postal </label>
+    <br><input type = "number"> </input></br></p>
+
+    <p><label class="block-label"> Ville </label>
+    <br><input type = "text"> </input></br></p>
+
+    <p><label class="block-label"> Téléphone </label>
+    <br><input type = "number"> </input></br></p>
+</p>
+
+
+
+</form>
+<script src="js/inscriptionDo.js" type="text/javascript"></script>
+  </body>
+</html>

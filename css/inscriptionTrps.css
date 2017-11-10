@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+/*----------------------------------------------------------------------------
+RESET
+----------------------------------------------------------------------------*/
+*{
+  margin : 0;
+}
+a {
+  text-decoration: none;
+}
+*,*::after,*::before{
+  clear: left;
+  box-sizing: border-box;
+}
+
+
+
+
+/*---------------------------------------------------------------------------
+BODY
+---------------------------------------------------------------------------*/
+
+body{
+  background:url(../image/port.jpeg)scroll;
+  background-size: cover;
+  height: 600px;
+  }
+
+
+/*----------------------------------------------------------------------------
+HEADER
+----------------------------------------------------------------------------*/
+
+.block-header .title {
+  padding: 20px;
+  padding-top: 50px;
+  margin: 0;
+  font-style: bold;
+  display: inline;
+
+}
+
+.login {
+    padding: 0px;
+    display: inline}
+
+    
+.block-header .inner button{
+    margin: 0px 1300px;
+    padding: 10px 10px;
+    background: transparent ;
+    color:white;
+    font: 20px "Comfortaa", arial, sans-serif;
+    font-style: bold;
+    position: absolute
+  }
+    
+
+/*----------------------------------------------------------------------------
+MAIN
+----------------------------------------------------------------------------*/
+.block-main .form{
+    
+margin: 2% 40%;  
+
+    
+}
+
+
+.block-main .champs{
+    display: block;
+    float: none;
+    color: white;
+    margin: 0 0 5px 0;
+    cursor: default;
+    font-family: 'Noto Sans', sans-serif;
+ 
+
+}
+
+.block-main .log {
+    
+padding: 15px 70px;
+}
+
+.block-main .suivant {
+ margin: 0px 1300px;
+  
+  }

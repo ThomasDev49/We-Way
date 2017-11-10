@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+/*----------------------------------------------------------------------------
+RESET
+----------------------------------------------------------------------------*/
+*{
+  margin : 0;
+}
+a {
+  text-decoration: none;
+}
+*,*::after,*::before{
+  clear: left;
+  box-sizing: border-box;
+}
+
+
+
+
+/*---------------------------------------------------------------------------
+BODY
+---------------------------------------------------------------------------*/
+
+body{
+  background:url(../image/port.jpeg)scroll;
+  background-size: cover;
+  height: 100%;
+  }
+
+
+/*----------------------------------------------------------------------------
+HEADER
+----------------------------------------------------------------------------*/
+
+.block-header .title {
+  padding: 20px;
+  padding-top: 50px;
+  margin: 0;
+  font-style: bold;
+  display: inline;
+
+}
+
+.block-header .inner button{
+    margin: 0px 1300px;
+    padding: 10px 10px;
+    background: transparent ;
+    color:white;
+    font: 20px "Comfortaa", arial, sans-serif;
+    font-style: bold;
+    position: absolute
+  }
+
+/*=========FORMULAIRE CO======================*/
+
+.block-form{
+  margin-top: 100px;
+}
+
+.block-form .block-legend {
+  color:white;
+  font: 30px "Comfortaa", arial, sans-serif;
+}
+.block-form .block-label {
+  color : white;
+  font : 15px "Comfortaa", arial, sans-serif;
+  margin: 30px 30px;
+}
+.block-form p {
+  margin : 25px;
+  text-align: center;
+}
+.block-form  input{
+  padding : 10px 50px;
+}

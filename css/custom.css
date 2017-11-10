@@ -1,0 +1,162 @@
+@import url("normalize.css");
+
+/* -----------------------------------------
+RESET
+----------------------------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+   margin: 0;
+}
+ul, ol {
+   margin: 0;
+   padding: 0;
+}
+a {
+   text-decoration: none;
+}
+
+/* -----------------------------------------
+COMMUNS
+----------------------------------------- */
+
+
+.block-center .inner,
+.block-footer .inner {
+   width: 100%;
+   margin: 0 auto;
+}
+
+
+/* -----------------------------------------
+HEADER
+----------------------------------------- */
+/*
+.block-header {
+  background: #ECECEC;
+  padding-top: 30px;
+  height: 70px;
+}
+.block-header .inner {
+  width: 100%;
+  margin: 0 auto;
+}
+.block-header .title {
+  color: red;
+  font-size: 20px/1;
+  font-family: Arial,"Fjalla One",Tahoma,sans-serif;
+}
+*/
+.block-header {
+	background: #ECECEC;
+}
+/*.block-header > .inner {
+	padding: 15px 0;
+}*/
+
+
+#logo {
+  width: 90px;
+  height: 50px;
+}
+
+/* ---------------------------------------------
+NAVIGATION
+--------------------------------------------- */
+/* Commons */
+.block-nav li,
+.block-nav a,
+.block-nav a > span {
+	display: block;
+}
+
+.block-nav {
+  color : black;
+  position: absolute;
+  left: 35%;
+  bottom: 91%;
+  border: none;
+}
+
+
+.block-nav .menu > li {
+  float: left;
+  /* display: block;*/
+  list-style: none;
+  /* border: border-width border-style border-color */
+  position: relative;
+}
+.block-nav .menu > li:last-child {
+  border-right: 0;
+}
+.block-nav .menu > li > a {
+  color: black;
+  font: 14px/1, Arial, sans-serif;
+  padding: 10px 15px;
+  display: block;
+  text-transform: uppercase;
+  /* transition: transition-property transition-duration transition-timing-function transition-delay */
+  transition: background .5s linear;
+}
+
+
+
+/* sous navigation 1  */
+.block-nav .menu > li > ul {
+	display: none;
+	background: #4B5288;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	min-width: 100%;
+}
+
+.block-nav .menu > li:hover > ul {
+	display: block;
+}
+
+.block-nav .menu > li > ul > li {
+	border-bottom: none;
+}
+
+.block-nav .menu > li > ul > li:last-child {
+	border-bottom: 0;
+}
+
+.block-nav .menu > li > ul > li > a {
+	padding: 10px;
+	white-space: nowrap;
+}
+
+.block-nav .menu > li > ul > li > a:hover {
+	background-color: #ECECEC;
+}
+
+/*image de fond */
+
+
+body {
+  background: url(../image/port.jpeg);
+  background-size: 100% auto;
+}
+
+.block-center {
+  padding: 300px 0;
+  margin: 100px 0 auto;
+  border: none;
+}
+
+
+
+.block-main {
+  text-align: center;
+  color: #ECECEC;
+}
+
+.action-vertical li {
+  display: inline-block;
+  width: 200px;
+  background: #ECECEC;
+  font-weight: bold;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
